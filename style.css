@@ -1,0 +1,144 @@
+    *, *::before, *::after {
+    box-sizing: border-box;
+    }
+
+    body{
+        background-color: rgb(60, 5, 74);
+        margin: 0;
+    }
+    .pop-up{
+        width: 30%;
+        max-width: 600px;
+        padding: 1.8em;
+        border-radius: 20px;
+        background-color: rgb(60, 5, 74);
+        box-shadow: 7px 7px 20px rgb(18, 16, 16);
+        margin: 0 auto;
+        margin-top: 250px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .form h3{
+    color: rgb(255,215,0);
+    font-size: 1.5rem;
+    margin-bottom:.3em;
+    
+    font-family: Verdana, Tahoma, sans-serif;
+    }
+
+    #name{
+        border-radius: 5px;
+        outline: none;
+        border: none;
+        font-size: 1.2rem;
+        padding: .1em .2em;
+        background-color: rgb(253, 253, 179);
+        color: rgb(52, 12, 91);
+        font-family: Verdana, Tahoma, sans-serif;
+    }
+    
+    #btn-close{
+        width: 50%;
+        margin: 0 auto ;
+        margin-top: 1em;
+        border-radius: 10px;
+        font-size: 1.2rem;
+        outline: none;
+        border: none;
+        font-family: Verdana, Tahoma, sans-serif;
+        background-color: rgb(253, 253, 179);
+        color: rgb(52, 12, 91);
+        font-weight: bold;
+    }
+
+    .head,.main-game{
+        width: 80%;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .inner{
+        width: 60%;
+        margin: 0 auto;
+        padding: .2em;
+        font-size: 1.5rem;
+        text-align: center;
+        color: rgb(255,215,0);
+        font-family:cursive;
+    }
+
+    .result{
+        width: 25%;
+        color: rgb(255, 255, 255);
+        margin: 0.2em auto;
+        font-size: 1.2rem;
+        text-align: center;
+        font-family:cursive;
+    }
+    #result_txt{
+        word-spacing: .2rem;
+    }
+
+    .show_weapon{
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+
+    }
+    img{
+        width: auto;
+        height: 150px;
+    }
+
+    .player,.computer{
+        width: 26%;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+        padding: 1.5em;
+        border: 2px solid yellow;
+    }
+    .player_text, .computer_text{
+        color: rgb(255, 230, 0);
+        font-weight: bold;
+        font-size: 1.2rem;
+        padding: .2em;
+        text-align: center;
+        font-family: cursive;
+        margin-top: 15px;
+    }
+
+    .title{
+        color: rgb(255, 255, 255);
+        font-size: 1.6rem;
+    }
+    .images{
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .rock,.paper,.scissors{
+        padding: 1em;
+        border-radius: 20px;
+        background-color: rgb(39, 13, 47);
+    }
+    .rock:hover,.paper:hover,.scissors:hover{
+        cursor: pointer;
+        background-color: rgb(82, 42, 93) ;
+    }
+
+    .pop-up.mystyle{
+        display: none;
+    }
+
+    .main.mystyle{
+        filter: blur(1300px);
+        pointer-events: none; 
+        user-select: none;
+    }
+
+

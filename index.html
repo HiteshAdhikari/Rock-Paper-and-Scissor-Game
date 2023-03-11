@@ -4,9 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Rock, Paper and Scissor</title>
 </head>
 <body>
+
+        <div class="pop-up" >
+            <div class="form" >
+                <h3>Enter your name:</h3>
+                <input type="text"  id="name" required>
+                <button type="submit" id="btn-close">Start</button>
+            </div>
+        </div>
+
+    <div class="main mystyle">
+        <section class="head">
+            <div class="inner">
+                <h1>ROCK PAPER SCISSORS</h1>
+            </div>
+        </section>
+    
+        <section class="main-game">
+            <!-- Result section  -->
+            <div class="result">
+                <h2 id="result_txt">Win or Lose</h2>
+                <p id="result_txt_1"></p>
+            </div>
+    
+    
+            <!-- WEAPON SHOWING -->
+            <div class="show_weapon">
+                <div class="player">
+                    <img id="player_weapon" src="images/question1.png" alt="">
+                    <div class="player_text"><span class="user">PLAYER </span><span>: </span><span id = "user_score">0</span></div>
+                </div>
+                <div class="computer">
+                    <img id="computer_weapon" src="images/question1.png" alt="">
+                    <div class="computer_text">COMPUTER: <span id = "computer_score" >0</span></div>
+                </div>
+            </div>
+    
+            <!-- Player's Weapon-->
+            <div class="inner">
+                <div class="title">
+                    <h2>Choose Your Weapon</h2>
+                </div>
+                <div class="images">
+                    <div class="rock">
+                        <img id ="rock" src="images/rock.png" alt="">
+                    </div>
+                    <div class="paper">
+                        <img id ="paper" src="images/paper.png" alt="">
+                    </div>
+                    <div class="scissors">
+                        <img id ="scissors" src="images/scissors.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
 
     <script src="script.js"></script>
 </body>
