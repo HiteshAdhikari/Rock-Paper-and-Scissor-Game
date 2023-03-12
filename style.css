@@ -136,9 +136,7 @@
     }
 
     .main.mystyle{
-        filter: blur(1300px);
-        pointer-events: none; 
-        user-select: none;
+        display: none;
     }
 
 
